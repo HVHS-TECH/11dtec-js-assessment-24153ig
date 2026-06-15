@@ -5,12 +5,21 @@
   column-gap:0;
 }
 
-.header, .crape1, .crape2, .crape3, .crape4, .crape5, .crape6 {
+.orderStation {
+grid-column:2/4;
+}
+
+.header, .crape1, .crape2, .crape3, .crape4, .crape5 {
 grid-column: 1 / 4;
+background-color: #C3D4E3;
+}
+
+.addOn1, .addOn2, .addon3 {
+grid-column: 1 / 1;
+background-color:pink;
 }
 
 .container div {
-  background-color: #C3D4E3;
   padding: 15px;
 }
 
