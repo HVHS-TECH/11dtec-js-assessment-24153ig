@@ -5,8 +5,8 @@
   column-gap:0;
 }
 
-.header, .crape1, .crape2, .crape3, .crape4, .crape5, .crape6, {
-grid-column: 1 / 5;
+.header, .crape1, .crape2, .crape3, .crape4, .crape5, .crape6 {
+grid-column: 1 / 4;
 }
 
 .container div {
