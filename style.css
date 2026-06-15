@@ -5,7 +5,9 @@
   column-gap:0;
 }
 
-.header {
+.header, .crape1, .crape2, .crape3, .crape4, .crape5, .crape6, {
 grid-column: 1 / 5;
 }
+
+
 
