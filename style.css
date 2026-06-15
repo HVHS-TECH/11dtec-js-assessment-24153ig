@@ -6,5 +6,6 @@
 }
 
 .header {
-grid-column: ;
+grid-column: 1 / 5;
 }
+
