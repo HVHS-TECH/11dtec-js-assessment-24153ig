@@ -21,11 +21,6 @@ grid-column: 1 / 4;
 background-color: #C3D4E3;
 }
 
-.addOn1, .addOn2, .addon3 {
-grid-column: 1 / 1;
-background-color:pink;
-}
-
 .container div {
   padding: 15px;
 }
