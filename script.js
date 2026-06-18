@@ -4,6 +4,6 @@ console.log("Hello world!")
 
 /***Main***/
 
-/******/
+/***Functions***/
 
 
