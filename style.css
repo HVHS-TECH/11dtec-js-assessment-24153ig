@@ -5,11 +5,18 @@
   column-gap:0;
 }
 
-.orderStation {
-grid-column:4/1;
+.navbar a {
+  float: left;
+  display: block;
+  padding: 14px ;
 }
 
-.navber, .header, .crape1, .crape2, .crape3, .crape4, .crape5 {
+a {
+  color: #484644;
+  text-decoration: none;
+}
+
+.navbar, .header, .crape1, .crape2, .crape3, .crape4, .crape5 {
 grid-column: 1 / 4;
 background-color: #C3D4E3;
 }
