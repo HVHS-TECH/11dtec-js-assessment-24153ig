@@ -10,5 +10,8 @@ let order = []
 /***Main***/
 
 /***Functions***/
+function orderStation {
+    
+}
 
 
