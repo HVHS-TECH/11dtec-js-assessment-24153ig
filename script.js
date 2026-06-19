@@ -14,6 +14,9 @@ function getFormInput() {
 const AGE_FIELD = document.getElementById("ageField");
 age = Number(AGE_FIELD.value);
 OUTPUT.innerHTML = "<p>You are "+age+" years old</p>";
+const AGE_FIELD = document.getElementById("nameField");
+name = Number(NAME_FIELD.value);
+OUTPUT.innerHTML = "<p>Hi"+userName+"</p>";
 }
 
 
