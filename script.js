@@ -5,18 +5,18 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 
 /***Variables***/
 let userName;
-let money;
+let age;
 let order = []
 /***Main***/
 
 /***Functions***/
 function getFormInput() {
-const AGE_FIELD = document.getElementById("ageField");
-age = Number(AGE_FIELD.value);
-OUTPUT.innerHTML = "<p>You are "+age+" years old</p>";
 const AGE_FIELD = document.getElementById("nameField");
 userName = Number(NAME_FIELD.value);
 OUTPUT.innerHTML = "<p>Hi"+userName+"</p>";
+const AGE_FIELD = document.getElementById("ageField");
+age = Number(AGE_FIELD.value);
+OUTPUT.innerHTML = "<p>You are "+age+" years old</p>";
 }
 
 
