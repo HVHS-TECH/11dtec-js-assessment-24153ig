@@ -24,12 +24,18 @@ a {
   text-decoration: none;
 }
 
-.navbar, .header, .crape1, .crape2, .crape3, .crape4, .crape5, .orderStation {
+.navbar, .header, .crape1, .crape2, .crape3, .crape4, .crape5 {
 grid-column: 1 / 4;
+
 }
 
 .container div {
   padding: 15px;
+   background-color: #7b915d;
 }
+
+
+
+
 
 
