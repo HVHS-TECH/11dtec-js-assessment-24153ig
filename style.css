@@ -34,7 +34,11 @@ grid-column: 1 / 4;
    background-color: #7b915d;
 }
 
-
+.orderStation {
+grid-column: 4 / span 5;
+grid-row-start: 1;
+  grid-row-end: 8;
+}
 
 
 
