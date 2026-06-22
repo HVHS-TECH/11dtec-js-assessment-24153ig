@@ -1,3 +1,7 @@
+body {
+background-color:#c19a6b
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -18,7 +22,6 @@ a {
 
 .navbar, .header, .crape1, .crape2, .crape3, .crape4, .crape5, .orderStation {
 grid-column: 1 / 4;
-background-color: #8c6a4a;
 }
 
 .container div {
