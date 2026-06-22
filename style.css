@@ -18,7 +18,7 @@ a {
 
 .navbar, .header, .crape1, .crape2, .crape3, .crape4, .crape5, .orderStation {
 grid-column: 1 / 4;
-background-color: #C3D4E3;
+background-color: #8c6a4a;
 }
 
 .container div {
