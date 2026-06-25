@@ -14,10 +14,8 @@ let order = []
 /***Functions***/
 
 function getFormInput() {
-const NAME_FIELD = document.getElementById("nameField");
 userName = Number(NAME_FIELD.value);
 OUTPUT.innerHTML = "<p>Hi"+userName+"</p>";
-const AGE_FIELD = document.getElementById("ageField");
 age = Number(AGE_FIELD.value);
 OUTPUT.innerHTML = "<p>You are "+age+" years old</p>";
 }
