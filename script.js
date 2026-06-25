@@ -15,9 +15,9 @@ let order = []
 
 function getFormInput() {
 let userName = (NAME_FIELD.value);
-OUTPUT.innerHTML = "<p>Hi"+userName+"</p>";
+OUTPUT.innerHTML = "<p>Hi "+userName+"</p>";
 let age = Number(AGE_FIELD.value);
-OUTPUT.innerHTML = "<p>You are "+age+" years old</p>";
+OUTPUT.innerHTML += "<p>You are "+age+" years old</p>";
 }
 
 
