@@ -21,4 +21,5 @@ OUTPUT.innerHTML = "<p>You are "+age+" years old</p>";
 
 function Order() {
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
+
 }
