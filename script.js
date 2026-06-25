@@ -19,13 +19,4 @@ age = Number(AGE_FIELD.value);
 OUTPUT.innerHTML = "<p>You are "+age+" years old</p>";
 }
 
-function Order() {
-OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 
-OUTPUT.innerHTML += "<p>Hi " + userName + "</p>";
-OUTPUT.innerHTML += "<p>As of " + year + " you are "+ age + " years old</p>";
-console.log("Hi "+ userName)
-console.log("As of "+ year + " you are "+ age + " years old")
-
-
-}
