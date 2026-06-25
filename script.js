@@ -13,8 +13,6 @@ let order = []
 
 function Order() {
 
-}
-
 /***Functions***/
 function getFormInput() {
 const AGE_FIELD = document.getElementById("nameField");
@@ -25,4 +23,4 @@ age = Number(AGE_FIELD.value);
 OUTPUT.innerHTML = "<p>You are "+age+" years old</p>";
 }
 
-
+}
