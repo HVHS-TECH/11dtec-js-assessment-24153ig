@@ -10,6 +10,7 @@ let order = []
 /***Main***/
 
 /***Functions***/
+
 function getFormInput() {
 const NAME_FIELD = document.getElementById("nameField");
 userName = Number(NAME_FIELD.value);
