@@ -11,6 +11,10 @@ let age;
 let order = []
 /***Main***/
 
+function Order() {
+
+}
+
 /***Functions***/
 function getFormInput() {
 const AGE_FIELD = document.getElementById("nameField");
