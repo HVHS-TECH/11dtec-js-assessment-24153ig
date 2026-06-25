@@ -2,8 +2,6 @@ console.log("Hello world!")
 console.log("Running script.js")
 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-const NAME_FIELD = document.getElementById("nameField");
-const AGE_FIELD = document.getElementById("ageField")
 
 /***Variables***/
 let userName = String (NAME_FIELD.value);
