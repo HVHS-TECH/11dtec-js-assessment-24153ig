@@ -6,7 +6,7 @@ const NAME_FIELD = document.getElementById("nameField");
 const AGE_FIELD = document.getElementById("ageField");
 
 /***Variables***/
-let userName = String (NAME_FIELD.value);
+let userName;
 let age;
 let order = []
 /***Main***/
@@ -14,9 +14,9 @@ let order = []
 /***Functions***/
 
 function getFormInput() {
-userName = Number(NAME_FIELD.value);
+let userName = (NAME_FIELD.value);
 OUTPUT.innerHTML = "<p>Hi"+userName+"</p>";
-age = Number(AGE_FIELD.value);
+let age = Number(AGE_FIELD.value);
 OUTPUT.innerHTML = "<p>You are "+age+" years old</p>";
 }
 
