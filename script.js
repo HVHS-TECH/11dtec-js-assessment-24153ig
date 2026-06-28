@@ -18,6 +18,18 @@ let userName = (NAME_FIELD.value);
 OUTPUT.innerHTML = "<p>Hi "+userName+"</p>";
 let age = Number(AGE_FIELD.value);
 OUTPUT.innerHTML += "<p>You are "+age+" years old</p>";
+
+let crepe = ["Banana and Nutella Crepe", "Banana and Caramel Crepe", "Lemon and Sugar Crepe", "Ham, cheese and Spinach Crepe", "Ham Cheese and Egg Crepe"
+]
+let price = 5;
+let quantitys = [
+Number(document.getElementById("quantity1").value),
+Number(document.getElementById("quantity2").value),
+Number(document.getElementById("quantity3").value),
+Number(document.getElementById("quantity4").value),
+Number(document.getElementById("quantity5").value)
+]
+
 const CHOOSE_FIELD = document.getElementById("chooseField");
 let chocolateArray = ["undefined","Banana and Natella Crepe", "Banana and caramal Crepe", "Lemon and Sugar Crepe", "Ham, Cheese and Spinach Crepe", "Ham and Cheese and egg Crepe" ]
 let choice = CHOOSE_FIELD.value;
