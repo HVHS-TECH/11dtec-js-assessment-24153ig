@@ -14,7 +14,6 @@ let order = []
 /***Functions***/
 
 function getFormInput() {
-OUTPUT.innerHTML = "<h1>Recept</h1>"
 let userName = (NAME_FIELD.value);
 OUTPUT.innerHTML = "<p>Hi "+userName+"</p>";
 let age = Number(AGE_FIELD.value);
