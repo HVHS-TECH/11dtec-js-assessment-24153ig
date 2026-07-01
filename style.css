@@ -13,18 +13,7 @@ background-color:#c19a6b
   column-gap:0;
 }
 
-.navbar a {
-  float: left;
-  display: block;
-  padding: 14px ;
-}
-
-a {
-  color: #484644;
-  text-decoration: none;
-}
-
-.navbar, .header, .crape1, .crape2, .crape3, .crape4, .crape5 {
+.header, .crape1, .crape2, .crape3, .crape4, .crape5 {
 grid-column: 1 / 4;
 
 }
