@@ -2,7 +2,7 @@ console.log("Hello world!")
 console.log("Running script.js")
 
 
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+
 const NAME_FIELD = document.getElementById("nameField");
 const AGE_FIELD = document.getElementById("ageField");
 
@@ -15,6 +15,7 @@ let order = []
 /***Functions***/
 
 function addToList2() {
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 }
 
