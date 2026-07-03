@@ -17,6 +17,21 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<p>Berries - $3</p>";
 }
 
+function addToListCream() {
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+OUTPUT.innerHTML += "<p>Cream - $3</p>";
+}
+
+function addToListmm() {
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+OUTPUT.innerHTML += "<p>M&Ms - $3</p>";
+}
+
+function addToListCrepe5() {
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+OUTPUT.innerHTML += "<p>Ham and Cheese and egg Crepe - $5</p>";
+}
+
 function getFormInput() {
 const OUTPUT = document.getElementById("spaceForJavaScriptFormOutput");
 let userName = (NAME_FIELD.value);
