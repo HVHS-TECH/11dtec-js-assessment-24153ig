@@ -1,7 +1,7 @@
 console.log("Hello world!")
 console.log("Running script.js")
 
-const OUTPUT = document.getElementById("spaceForJavaScriptFormOutput");
+
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 const NAME_FIELD = document.getElementById("nameField");
 const AGE_FIELD = document.getElementById("ageField");
@@ -14,7 +14,12 @@ let order = []
 
 /***Functions***/
 
+function addToList2() {
+OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
+}
+
 function getFormInput() {
+const OUTPUT = document.getElementById("spaceForJavaScriptFormOutput");
 let userName = (NAME_FIELD.value);
 OUTPUT.innerHTML = "<p>Hi "+userName+"</p>";
 let age = Number(AGE_FIELD.value);
@@ -38,9 +43,7 @@ pocketMoney = Number (MONEY_FIELD.value);
 OUTPUT.innerHTML += "<p>You have "+pocketMoney+" dollars to spend</p>";
 }
 
-function addToList2() {
-OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
-}
+
 
 
 
