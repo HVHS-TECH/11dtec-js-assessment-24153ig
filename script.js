@@ -12,7 +12,7 @@ let order = []
 
 /***Functions***/
 
-function addToList2() {
+function addToList() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 }
