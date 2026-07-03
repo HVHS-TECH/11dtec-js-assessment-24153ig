@@ -38,8 +38,6 @@ OUTPUT.innerHTML += "<p>You have "+pocketMoney+" dollars to spend</p>";
 }
 
 function addToList2() {
-const ITEM8_FIELD = document.getElementById("item8Field");
-let mm = ITEM8_FIELD.value
 OUTPUT.innerHTML += "M&Ms - $3"
 }
 
