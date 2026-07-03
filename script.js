@@ -38,7 +38,7 @@ OUTPUT.innerHTML += "<p>You have "+pocketMoney+" dollars to spend</p>";
 }
 
 function addToList2() {
-OUTPUT.innerHTML += "M&Ms - $3"
+OUTPUT.innerHTML = "<h2>Added by JavaScript</h2>";
 }
 
 
