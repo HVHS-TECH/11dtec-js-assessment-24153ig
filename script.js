@@ -38,3 +38,5 @@ OUTPUT.innerHTML += "<p>You have "+pocketMoney+" dollars to spend</p>";
 }
 
 
+
+
