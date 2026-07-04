@@ -32,6 +32,27 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<p>Ham and Cheese and egg Crepe - $5</p>";
 }
 
+function addToListCrepe4() {
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+OUTPUT.innerHTML += "<p>Ham, Cheese and Spinach Crepe - $5</p>";
+}
+
+function addToListCrepe3() {
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+OUTPUT.innerHTML += "<p>Lemon and Sugar Crepe - $5</p>";
+}
+
+function addToListCrepe2() {
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+OUTPUT.innerHTML += "<p>Banana and Caramel Crepe - $5</p>";
+}
+
+function addToListCrepe1() {
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+OUTPUT.innerHTML += "<p>Banana and Nutella Crepe - $5</p>";
+}
+
+
 function getFormInput() {
 const OUTPUT = document.getElementById("spaceForJavaScriptFormOutput");
 let userName = (NAME_FIELD.value);
