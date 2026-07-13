@@ -79,6 +79,7 @@ OUTPUT.innerHTML += "<p>You have "+pocketMoney+" dollars to spend</p>";
 }
 
 function addToTotal() {
+let total=0;
 
 
 }
