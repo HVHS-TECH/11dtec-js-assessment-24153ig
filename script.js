@@ -78,12 +78,7 @@ pocketMoney = Number (MONEY_FIELD.value);
 OUTPUT.innerHTML += "<p>You have "+pocketMoney+" dollars to spend</p>";
 }
 
-function addToTotal() {
-let total=0;
-for (let i=0; < order.length; i++)
-total += order[i],
 
-}
 
 
 
