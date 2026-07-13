@@ -72,7 +72,7 @@ OUTPUT.innerHTML += "<p>You have "+pocketMoney+" dollars to spend</p>";
 }
 
 function totalCosts() {
-for (let i = 0; i<=order.length; i++){
+for (let i = 0; i<=order; i++){
 console.log("Total:" + i )
 OUTPUT.innerHTML += "<p>Total: "+i+" </p>";
 }
