@@ -65,7 +65,7 @@ function addToListCrepe1() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<p>Banana and Nutella Crepe - $5</p>";
 order.push(5.00);
-addToTotal()
+console.log(order);
 }
 
 
