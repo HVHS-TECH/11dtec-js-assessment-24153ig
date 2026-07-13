@@ -12,6 +12,15 @@ let order = []
 
 /***Functions***/
 
+function getFormInput() {
+const OUTPUT = document.getElementById("spaceForJavaScriptFormOutput");
+let userName = (NAME_FIELD.value);
+OUTPUT.innerHTML = "<p>Hi "+userName+"</p>";
+const MONEY_FIELD = document.getElementById("moneyField");
+pocketMoney = Number (MONEY_FIELD.value);
+OUTPUT.innerHTML += "<p>You have "+pocketMoney+" dollars to spend</p>";
+}
+
 function addToList() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<p>Berries - $3</p>";
@@ -62,14 +71,7 @@ console.log(order);
 }
 
 
-function getFormInput() {
-const OUTPUT = document.getElementById("spaceForJavaScriptFormOutput");
-let userName = (NAME_FIELD.value);
-OUTPUT.innerHTML = "<p>Hi "+userName+"</p>";
-const MONEY_FIELD = document.getElementById("moneyField");
-pocketMoney = Number (MONEY_FIELD.value);
-OUTPUT.innerHTML += "<p>You have "+pocketMoney+" dollars to spend</p>";
-}
+
 
 function totalCosts() {
 for (let i = 0; i<=order; i++){
