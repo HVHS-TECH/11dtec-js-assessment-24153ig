@@ -15,10 +15,9 @@ let order = []
 function getFormInput() {
 const OUTPUT = document.getElementById("spaceForJavaScriptFormOutput");
 let userName = (NAME_FIELD.value);
-OUTPUT.innerHTML = "<h2>Receipt</h2><p>Hi "+userName+"</p>";
+OUTPUT.innerHTML = "<h2>Receipt</h2>";
 const MONEY_FIELD = document.getElementById("moneyField");
 pocketMoney = Number (MONEY_FIELD.value);
-OUTPUT.innerHTML += "<p>You have "+pocketMoney+" dollars to spend</p>";
 function totalCosts() {
 let total = 0;
 for (let i = 0; i<order.length; i++){
