@@ -28,6 +28,8 @@ console.log("Total:" + total )
 OUTPUT.innerHTML += "<p>Total: $"+total+" </p>";
 }
 totalCosts()
+Answer = pocketMoney-total  
+OUTPUT.innerHTML += "<p>In ten years you will be " + Answer +" years old</p>";
 }
 
 function addToList() {
