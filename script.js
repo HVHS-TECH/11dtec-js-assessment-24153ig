@@ -20,7 +20,7 @@ const MONEY_FIELD = document.getElementById("moneyField");
 pocketMoney = Number (MONEY_FIELD.value);
 OUTPUT.innerHTML += "<p>You have "+pocketMoney+" dollars to spend</p>";
 function totalCosts() {
-for (let i = 0; i<=order; i++){
+for (let i = 0; i<order.length; i++){
 console.log("Total:" + i )
 OUTPUT.innerHTML += "<p>Total: "+i+" </p>";
 }
