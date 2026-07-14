@@ -25,7 +25,7 @@ for (let i = 0; i<order.length; i++){
 total +=order[i];
 }
 console.log("Total:" + total )
-OUTPUT.innerHTML += "<p>Total: "+total+" </p>";
+OUTPUT.innerHTML += "<p>Total: $"+total+" </p>";
 }
 totalCosts()
 }
