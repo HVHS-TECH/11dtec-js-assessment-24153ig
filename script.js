@@ -20,6 +20,7 @@ const MONEY_FIELD = document.getElementById("moneyField");
 pocketMoney = Number (MONEY_FIELD.value);
 function totalCosts() {
 let total = 0;
+if (pocketMoney > total) {
 for (let i = 0; i<order.length; i++){
 total +=order[i];
 }
@@ -29,7 +30,11 @@ Answer = pocketMoney-total
 OUTPUT.innerHTML += "<p>Change: $" + Answer +" </p>";
 }
 totalCosts()
-
+else {
+    OUTPUT.innerHTML += "<p>A chocolate bar costs $4 You CAN afford a chocolate bar</p>";
+}
+}
+totalCosts()
 }
 
 function addToList() {
