@@ -27,10 +27,14 @@ console.log("Total:" + total )
 OUTPUT.innerHTML += "<p>Total: $"+total+" </p>";
 
 if (pocketMoney>=total){
-    
-}
 Answer = pocketMoney-total  
 OUTPUT.innerHTML += "<p>Change: $" + Answer +" </p>";
+}
+else{
+    let notEnough = total-pocketMoney
+    OUTPUT.innerHTML += "<p>You do not have enough money, you need $" + notEnough +" more</p>";
+}
+
 }
 totalCosts()
 
