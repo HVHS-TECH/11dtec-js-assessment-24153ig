@@ -18,12 +18,6 @@ let userName = (NAME_FIELD.value);
 OUTPUT.innerHTML = "<h2>Receipt</h2><p>Hi "+userName+"</p>";
 const MONEY_FIELD = document.getElementById("moneyField");
 pocketMoney = Number (MONEY_FIELD.value);
-
-
-if (pocketMoney < total) {
-OUTPUT.innerHTML += "<p>Sorry you cant afford this order</p>";
-}
-else {
 function totalCosts() {
 let total = 0;
 for (let i = 0; i<order.length; i++){
@@ -35,7 +29,7 @@ Answer = pocketMoney-total
 OUTPUT.innerHTML += "<p>Change: $" + Answer +" </p>";
 }
 totalCosts()
-}
+
 }
 
 function addToList() {
