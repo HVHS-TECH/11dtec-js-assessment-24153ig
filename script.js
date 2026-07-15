@@ -25,6 +25,10 @@ total +=order[i];
 }
 console.log("Total:" + total )
 OUTPUT.innerHTML += "<p>Total: $"+total+" </p>";
+
+if (pocketMoney>=total){
+    
+}
 Answer = pocketMoney-total  
 OUTPUT.innerHTML += "<p>Change: $" + Answer +" </p>";
 }
