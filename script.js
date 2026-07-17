@@ -41,8 +41,9 @@ totalCosts()
 }
 
 function clearList() {
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 order = [] 
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+  OUTPUT.innerHTML = "List cleared! Current items: " + order.length;
 }
 
 function addToList() {
