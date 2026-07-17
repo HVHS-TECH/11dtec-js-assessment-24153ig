@@ -42,7 +42,7 @@ totalCosts()
 
 function clearList() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-let order = [] = 0
+order = [] 
 }
 
 function addToList() {
