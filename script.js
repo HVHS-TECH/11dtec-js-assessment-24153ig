@@ -43,7 +43,7 @@ totalCosts()
 function clearList() {
 order = [] 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML = "List cleared! Current items: " + order.length;
+OUTPUT.innerHTML = "";
 }
 
 function addToList() {
