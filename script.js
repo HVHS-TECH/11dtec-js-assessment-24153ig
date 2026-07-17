@@ -40,6 +40,11 @@ totalCosts()
 
 }
 
+function clearList() {
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+let order = [] = 0
+}
+
 function addToList() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML += "<p>Berries - $3</p>";
