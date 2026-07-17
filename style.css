@@ -19,6 +19,11 @@ border: 2px solid black;
 border-radius: 12px;
 }
 
+.addOn1,.addOn2,.addOn3{
+border: 2px solid black;
+border-radius: 12px;
+}
+
 .container div {
 padding: 15px;
 background-color: #c19a6b;
