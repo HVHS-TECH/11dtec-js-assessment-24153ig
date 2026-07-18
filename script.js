@@ -8,6 +8,7 @@ const AGE_FIELD = document.getElementById("ageField");
 let userName;
 let age;
 let order = []
+let total = 0;
 /***Main***/
 
 /***Functions***/
@@ -19,7 +20,7 @@ OUTPUT.innerHTML = "<h2>Receipt</h2><p>Hi "+userName+"</p>";
 const MONEY_FIELD = document.getElementById("moneyField");
 pocketMoney = Number (MONEY_FIELD.value);
 function totalCosts() {
-let total = 0;
+total = 0;
 for (let i = 0; i<order.length; i++){
 total +=order[i];
 }
@@ -44,6 +45,7 @@ function clearList() {
 order = [] 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "";
+total = 0;
 }
 
 function addToList() {
