@@ -35,6 +35,9 @@ grid-row-start: 1;
 grid-row-end: 9;
 }
 
-
+button{
+  background:#7b3f00;
+  color:white;
+}
 
 
