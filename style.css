@@ -40,4 +40,12 @@ button{
   color:black;
 }
 
+.crape1, .crape2, .crape3,.crape4,.crape5, .addOn1, .addOn2, .addOn3{
+  transition: transform 0.3s ease;
+}
+
+.crape1:hover,.crape2:hover, .crape3:hover,.crape4:hover,.crape5:hover,.addOn1:hover, .addOn2:hover, .addOn3:hover {
+  transform: scale(1.01); 
+}
+
 
