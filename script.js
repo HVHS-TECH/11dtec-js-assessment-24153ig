@@ -57,7 +57,7 @@ total = 0;
 
 function addToList() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML += "<p>Berries - $3</p>";
+berriesQuantity++
 order.push(3.00);
 }
 
