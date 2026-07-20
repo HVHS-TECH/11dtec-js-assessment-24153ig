@@ -78,10 +78,10 @@ OUTPUT.innerHTML += "<p>Ham, Cheese and Spinach x"+spinachQuantity+" - $"+ spina
 if (lemonQuantity>0){
 OUTPUT.innerHTML += "<p>Lemon and Sugar x"+lemonQuantity+" - $"+ lemonQuantity * 5+"</p>";
 }
-if (berriesQuantity>0){
+if (caremalQuantity>0){
 OUTPUT.innerHTML += "<p>Banana and caramal x"+caremalQuantity+" - $"+ caremalQuantity * 5+"</p>";
 }
-if (berriesQuantity>0){
+if (natellaQuantity>0){
 OUTPUT.innerHTML += "<p>Banana and Nutella x"+natellaQuantity+" - $"+ natellaQuantity * 5+"</p>";
 }
 }
