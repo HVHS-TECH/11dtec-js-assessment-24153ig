@@ -57,18 +57,14 @@ OUTPUT.innerHTML = "";
 total = 0;
 }
 
-function orderUpdate(){
-const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML = "";
-if (berriesQuantity>0){
-OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+"-$"+berriesQuantity * 3+"</p>";
-}
-}
 
 function addToList() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 berriesQuantity++;
 order.push(3.00);
+if (berriesQuantity>0){
+OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+"-$"+berriesQuantity * 3+"</p>";
+}
 }
 
 function addToListCream() {
