@@ -126,7 +126,6 @@ function addToListCrepe2() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 berriesQuantity++;
 order.push(5.00);
-OUTPUT.innerHTML = "";
 if (berriesQuantity>0){
 OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+" - $"+ berriesQuantity * 3+"</p>";
 }
