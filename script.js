@@ -8,6 +8,14 @@ const AGE_FIELD = document.getElementById("ageField");
 let userName;
 let age;
 let order = []
+let natellaQuantity 
+let caremalQuantity 
+let lemonQuantity 
+let spinachQuantity 
+let eggQuantity 
+let berriesQuantity 
+let creamQuantity 
+let mmQuantity 
 /***Main***/
 
 /***Functions***/
