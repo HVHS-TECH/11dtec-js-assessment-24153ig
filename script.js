@@ -48,6 +48,14 @@ totalCosts()
 
 }
 
+function orderUpdate(){
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+OUTPUT.innerHTML = "";
+if (berriesQuantity>0){
+OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+"-$"+berriesQuantity * 3+"</p>";
+}
+}
+
 function clearList() {
 order = [] 
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
