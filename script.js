@@ -69,6 +69,9 @@ OUTPUT.innerHTML += "<p>Cream x"+creamQuantity+" - $"+ creamQuantity * 3+"</p>";
 if (mmQuantity>0){
 OUTPUT.innerHTML += "<p>M&Ms x"+mmQuantity+" - $"+ mmQuantity * 3+"</p>";
 }
+if (eggQuantity>0){
+OUTPUT.innerHTML += "<p> x"+eggQuantity+" - $"+ eggQuantity * 3+"</p>";
+}
 }
 
 function addToList() {
@@ -96,10 +99,7 @@ function addToListCrepe5() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 eggQuantity++;
 order.push(5.00);
-
-if (eggQuantity>0){
-OUTPUT.innerHTML += "<p>Berries x"+eggQuantity+" - $"+ eggQuantity * 3+"</p>";
-}
+orderUpdate()
 }
 
 function addToListCrepe4() {
