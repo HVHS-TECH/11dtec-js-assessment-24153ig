@@ -8,14 +8,14 @@ const AGE_FIELD = document.getElementById("ageField");
 let userName;
 let age;
 let order = []
-let natellaQuantity 
-let caremalQuantity 
-let lemonQuantity 
-let spinachQuantity 
-let eggQuantity 
+let natellaQuantity =0;
+let caremalQuantity =0;
+let lemonQuantity =0;
+let spinachQuantity =0;
+let eggQuantity =0;
 let berriesQuantity = 0;
-let creamQuantity 
-let mmQuantity 
+let creamQuantity =0;
+let mmQuantity =0;
 /***Main***/
 
 /***Functions***/
@@ -62,51 +62,80 @@ function addToList() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 berriesQuantity++;
 order.push(3.00);
+OUTPUT.innerHTML = "";
 if (berriesQuantity>0){
-OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+"-$"+berriesQuantity * 3+"</p>";
+OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+" - $"+ berriesQuantity * 3+"</p>";
 }
 }
 
 function addToListCream() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML += "<p>Cream - $3</p>";
+creamQuantity++;
 order.push(3.00);
+OUTPUT.innerHTML = "";
+if (creamQuantity>0){
+OUTPUT.innerHTML += "<p>Cream x"+creamQuantity+" - $"+ creamQuantity * 3+"</p>";
+}
 }
 
 function addToListmm() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML += "<p>M&Ms - $3</p>";
+berriesQuantity++;
 order.push(3.00);
+OUTPUT.innerHTML = "";
+if (berriesQuantity>0){
+OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+" - $"+ berriesQuantity * 3+"</p>";
+}
 }
 
 function addToListCrepe5() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML += "<p>Ham and Cheese and egg Crepe - $5</p>";
+berriesQuantity++;
 order.push(5.00);
+OUTPUT.innerHTML = "";
+if (berriesQuantity>0){
+OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+" - $"+ berriesQuantity * 3+"</p>";
+}
 }
 
 function addToListCrepe4() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML += "<p>Ham, Cheese and Spinach Crepe - $5</p>";
+berriesQuantity++;
 order.push(5.00);
+OUTPUT.innerHTML = "";
+if (berriesQuantity>0){
+OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+" - $"+ berriesQuantity * 3+"</p>";
+}
 }
 
 function addToListCrepe3() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML += "<p>Lemon and Sugar Crepe - $5</p>";
+berriesQuantity++;
 order.push(5.00);
+OUTPUT.innerHTML = "";
+if (berriesQuantity>0){
+OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+" - $"+ berriesQuantity * 3+"</p>";
+}
 }
 
 function addToListCrepe2() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML += "<p>Banana and Caramel Crepe - $5</p>";
+berriesQuantity++;
 order.push(5.00);
+OUTPUT.innerHTML = "";
+if (berriesQuantity>0){
+OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+" - $"+ berriesQuantity * 3+"</p>";
+}
 }
 
 function addToListCrepe1() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-OUTPUT.innerHTML += "<p>Banana and Nutella Crepe - $5</p>";
+berriesQuantity++;
 order.push(5.00);
+OUTPUT.innerHTML = "";
+if (berriesQuantity>0){
+OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+" - $"+ berriesQuantity * 3+"</p>";
+}
 console.log(order);
 }
 
