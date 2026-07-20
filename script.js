@@ -41,8 +41,6 @@ OUTPUT.innerHTML += "<p>Change: $" + Answer +" </p>";
 else{
 let notEnough = total-pocketMoney
 OUTPUT.innerHTML += "<p>You do not have enough money, you need $" + notEnough +" more</p>";
-
-}
 }
 
 }
@@ -61,11 +59,9 @@ total = 0;
 
 function addToList() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-berriesQuantity++
-order.push(3.00);
-if (berriesQuantity>0){
+berriesQuantity++;
 OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+"-$"+berriesQuantity * 3+"</p>";
-}
+order.push(3.00);
 }
 
 function addToListCream() {
