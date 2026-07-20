@@ -70,7 +70,10 @@ if (mmQuantity>0){
 OUTPUT.innerHTML += "<p>M&Ms x"+mmQuantity+" - $"+ mmQuantity * 3+"</p>";
 }
 if (eggQuantity>0){
-OUTPUT.innerHTML += "<p> x"+eggQuantity+" - $"+ eggQuantity * 3+"</p>";
+OUTPUT.innerHTML += "<p>Ham, Cheese and Egg x"+eggQuantity+" - $"+ eggQuantity * 3+"</p>";
+}
+if (spinachQuantity>0){
+OUTPUT.innerHTML += "<p>Ham, Cheese and Spinach x"+spinachQuantity+" - $"+ spinachQuantity * 3+"</p>";
 }
 }
 
@@ -104,12 +107,9 @@ orderUpdate()
 
 function addToListCrepe4() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-berriesQuantity++;
+spinachQuantity++;
 order.push(5.00);
-OUTPUT.innerHTML = "";
-if (berriesQuantity>0){
-OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+" - $"+ berriesQuantity * 3+"</p>";
-}
+orderUpdate()
 }
 
 function addToListCrepe3() {
