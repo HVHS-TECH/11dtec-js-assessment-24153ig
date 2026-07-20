@@ -89,7 +89,6 @@ function addToListmm() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 berriesQuantity++;
 order.push(3.00);
-OUTPUT.innerHTML = "";
 orderUpdate()
 }
 
