@@ -13,7 +13,7 @@ let caremalQuantity
 let lemonQuantity 
 let spinachQuantity 
 let eggQuantity 
-let berriesQuantity 
+let berriesQuantity =0;
 let creamQuantity 
 let mmQuantity 
 /***Main***/
