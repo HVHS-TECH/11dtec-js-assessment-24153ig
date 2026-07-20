@@ -35,6 +35,7 @@ grid-row-end: 9;
 button{
   background:#c19a6b;
   color:black;
+  border-radius: 12px;
 }
 
 button:hover{
