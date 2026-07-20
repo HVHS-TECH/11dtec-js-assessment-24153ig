@@ -79,7 +79,10 @@ if (lemonQuantity>0){
 OUTPUT.innerHTML += "<p>Lemon and Sugar x"+lemonQuantity+" - $"+ lemonQuantity * 5+"</p>";
 }
 if (berriesQuantity>0){
-OUTPUT.innerHTML += "<p>Banana and caramal x"+caremalQuantity+" - $"+ caremalQuantity * 3+"</p>";
+OUTPUT.innerHTML += "<p>Banana and caramal x"+caremalQuantity+" - $"+ caremalQuantity * 5+"</p>";
+}
+if (berriesQuantity>0){
+OUTPUT.innerHTML += "<p>Banana and Nutella x"+natellaQuantity+" - $"+ natellaQuantity * 5+"</p>";
 }
 }
 
@@ -136,10 +139,6 @@ function addToListCrepe1() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 natellaQuantity++;
 order.push(5.00);
-OUTPUT.innerHTML = "";
-if (berriesQuantity>0){
-OUTPUT.innerHTML += "<p>Banana and Nutella x"+natellaQuantity+" - $"+ natellaQuantity * 3+"</p>";
-}
 console.log(order);
 }
 
