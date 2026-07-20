@@ -2,9 +2,6 @@ body {
 background-color:#c19a6b
 }
 
-.navbar a:hover {
-  background-color: #bb915d;
-}
 
 .container {
   display: grid;
@@ -55,5 +52,4 @@ button:hover{
 .orderStation {
   position: sticky;
   top: 10px;
-  
 }
