@@ -87,7 +87,7 @@ orderUpdate()
 
 function addToListmm() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-berriesQuantity++;
+mmQuantity++;
 order.push(3.00);
 orderUpdate()
 }
