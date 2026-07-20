@@ -139,6 +139,7 @@ function addToListCrepe1() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 natellaQuantity++;
 order.push(5.00);
+orderUpdate()
 console.log(order);
 }
 
