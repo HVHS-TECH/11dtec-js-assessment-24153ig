@@ -76,7 +76,7 @@ if (spinachQuantity>0){
 OUTPUT.innerHTML += "<p>Ham, Cheese and Spinach x"+spinachQuantity+" - $"+ spinachQuantity * 5+"</p>";
 }
 if (lemonQuantity>0){
-OUTPUT.innerHTML += "<p>Berries x"+lemonQuantity+" - $"+ lemonQuantity * 5+"</p>";
+OUTPUT.innerHTML += "<p>Lemon and Sugar x"+lemonQuantity+" - $"+ lemonQuantity * 5+"</p>";
 }
 }
 
