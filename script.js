@@ -75,6 +75,9 @@ OUTPUT.innerHTML += "<p>Ham, Cheese and Egg x"+eggQuantity+" - $"+ eggQuantity *
 if (spinachQuantity>0){
 OUTPUT.innerHTML += "<p>Ham, Cheese and Spinach x"+spinachQuantity+" - $"+ spinachQuantity * 5+"</p>";
 }
+if (lemonQuantity>0){
+OUTPUT.innerHTML += "<p>Berries x"+lemonQuantity+" - $"+ lemonQuantity * 5+"</p>";
+}
 }
 
 function addToList() {
@@ -114,12 +117,9 @@ orderUpdate()
 
 function addToListCrepe3() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-berriesQuantity++;
+lemonQuantity++;
 order.push(5.00);
-OUTPUT.innerHTML = "";
-if (berriesQuantity>0){
-OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+" - $"+ berriesQuantity * 3+"</p>";
-}
+orderUpdate()
 }
 
 function addToListCrepe2() {
