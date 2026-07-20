@@ -13,7 +13,7 @@ let caremalQuantity
 let lemonQuantity 
 let spinachQuantity 
 let eggQuantity 
-let berriesQuantity =0;
+let berriesQuantity = 0;
 let creamQuantity 
 let mmQuantity 
 /***Main***/
@@ -57,10 +57,17 @@ OUTPUT.innerHTML = "";
 total = 0;
 }
 
+function orderUpdate(){
+const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+OUTPUT.innerHTML = "";
+if (berriesQuantity>0){
+OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+"-$"+berriesQuantity * 3+"</p>";
+}
+}
+
 function addToList() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 berriesQuantity++;
-OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+"-$"+berriesQuantity * 3+"</p>";
 order.push(3.00);
 }
 
