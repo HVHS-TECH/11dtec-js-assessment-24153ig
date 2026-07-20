@@ -63,6 +63,9 @@ OUTPUT.innerHTML = "";
 if (berriesQuantity>0){
 OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+" - $"+ berriesQuantity * 3+"</p>";
 }
+if (creamQuantity>0){
+OUTPUT.innerHTML += "<p>Cream x"+creamQuantity+" - $"+ creamQuantity * 3+"</p>";
+}
 }
 
 function addToList() {
@@ -76,10 +79,7 @@ function addToListCream() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 creamQuantity++;
 order.push(3.00);
-OUTPUT.innerHTML = "";
-if (creamQuantity>0){
-OUTPUT.innerHTML += "<p>Cream x"+creamQuantity+" - $"+ creamQuantity * 3+"</p>";
-}
+orderUpdate()
 }
 
 function addToListmm() {
