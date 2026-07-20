@@ -94,11 +94,11 @@ orderUpdate()
 
 function addToListCrepe5() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-berriesQuantity++;
+eggQuantity++;
 order.push(5.00);
-OUTPUT.innerHTML = "";
-if (berriesQuantity>0){
-OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+" - $"+ berriesQuantity * 3+"</p>";
+
+if (eggQuantity>0){
+OUTPUT.innerHTML += "<p>Berries x"+eggQuantity+" - $"+ eggQuantity * 3+"</p>";
 }
 }
 
