@@ -134,11 +134,11 @@ orderUpdate()
 
 function addToListCrepe1() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
-berriesQuantity++;
+natellaQuantity++;
 order.push(5.00);
 OUTPUT.innerHTML = "";
 if (berriesQuantity>0){
-OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+" - $"+ berriesQuantity * 3+"</p>";
+OUTPUT.innerHTML += "<p>Banana and Nutella x"+natellaQuantity+" - $"+ natellaQuantity * 3+"</p>";
 }
 console.log(order);
 }
