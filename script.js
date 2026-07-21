@@ -70,6 +70,7 @@ let berriesQuantity = 0;
 let creamQuantity =0;
 let mmQuantity =0;
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+document.getElementById("spaceForJavaScriptFormOutput").innerHTML = "";
 OUTPUT.innerHTML = "";
 total ()
 total1()
