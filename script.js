@@ -100,6 +100,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 berriesQuantity++;
 order.push(3.00);
 orderUpdate()
+total()
 }
 
 function addToListCream() {
@@ -107,6 +108,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 creamQuantity++;
 order.push(3.00);
 orderUpdate()
+total()
 }
 
 function addToListmm() {
@@ -114,6 +116,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 mmQuantity++;
 order.push(3.00);
 orderUpdate()
+total()
 }
 
 function addToListCrepe5() {
@@ -121,6 +124,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 eggQuantity++;
 order.push(5.00);
 orderUpdate()
+total()
 }
 
 function addToListCrepe4() {
@@ -128,6 +132,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 spinachQuantity++;
 order.push(5.00);
 orderUpdate()
+total()
 }
 
 function addToListCrepe3() {
@@ -135,6 +140,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 lemonQuantity++;
 order.push(5.00);
 orderUpdate()
+total()
 }
 
 function addToListCrepe2() {
@@ -142,6 +148,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 caremalQuantity++;
 order.push(5.00);
 orderUpdate()
+total()
 }
 
 function addToListCrepe1() {
@@ -150,6 +157,7 @@ natellaQuantity++;
 order.push(5.00);
 orderUpdate()
 console.log(order);
+total()
 }
 
 
