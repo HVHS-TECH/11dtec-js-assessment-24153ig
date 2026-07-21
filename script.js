@@ -73,7 +73,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 document.getElementById("spaceForJavaScriptFormOutput").innerHTML = "";
 OUTPUT.innerHTML = "";
 total ()
-total1()
+orderUpdate()
 }
 
 function orderUpdate(){
