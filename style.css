@@ -71,5 +71,9 @@ margin-left: 0px;
 }
 
 #spaceForJavaScriptOutput{
- margin-left: 20px; 
+ margin-left: 0px; 
+}
+
+h2{
+  text-align: center;
 }
