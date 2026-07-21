@@ -25,7 +25,7 @@ let total1 = 0;
 for (let i = 0; i<order.length; i++){
 total1 +=order[i];
 }
-OUTPUT.innerHTML += "<p>Total: $"+total1+" </p>";
+OUTPUT.innerHTML = "<p>Total: $"+total1+" </p>";
 }
 total()
 
