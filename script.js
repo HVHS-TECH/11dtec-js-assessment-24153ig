@@ -19,6 +19,10 @@ let mmQuantity =0;
 /***Main***/
 
 /***Functions***/
+function total() {
+    
+}
+
 
 function getFormInput() {
 const OUTPUT = document.getElementById("spaceForJavaScriptFormOutput");
