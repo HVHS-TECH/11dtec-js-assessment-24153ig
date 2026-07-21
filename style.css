@@ -54,3 +54,11 @@ button:hover{
   position: sticky;
   top: 10px;
 }
+
+.getFormInput {
+  width:400px;
+  margin: 40px auto;
+  background: white;
+  padding:10px;
+
+}
