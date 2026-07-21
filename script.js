@@ -64,6 +64,7 @@ order = []
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "";
 total = 0;
+total1=0;
 }
 
 function orderUpdate(){
