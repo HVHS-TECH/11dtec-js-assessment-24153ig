@@ -20,6 +20,7 @@ let mmQuantity =0;
 
 /***Functions***/
 function total() {
+const OUTPUT = document.getElementById("total");
 let total1 = 0;
 for (let i = 0; i<order.length; i++){
 total1 +=order[i];
