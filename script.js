@@ -61,14 +61,14 @@ totalCosts()
 
 function clearList() {
 order = [] 
-let natellaQuantity =0;
-let caremalQuantity =0;
-let lemonQuantity =0;
-let spinachQuantity =0;
-let eggQuantity =0;
-let berriesQuantity = 0;
-let creamQuantity =0;
-let mmQuantity =0;
+natellaQuantity =0;
+caremalQuantity =0;
+lemonQuantity =0;
+spinachQuantity =0;
+eggQuantity =0;
+berriesQuantity = 0;
+creamQuantity =0;
+mmQuantity =0;
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 document.getElementById("spaceForJavaScriptFormOutput").innerHTML = "";
 OUTPUT.innerHTML = "";
