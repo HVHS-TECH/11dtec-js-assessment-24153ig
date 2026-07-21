@@ -65,9 +65,11 @@ button:hover{
   padding: 5px;
 }
 
-#spaceForJavaScriptOutput,
-#total,
-#spaceForJavaScriptFormOutput
- {
-    margin-left: 0px;
+#spaceForJavaScriptFormOutput,
+#total{
+margin-left: 0px;
+}
+
+#spaceForJavaScriptOutput{
+ margin-left: 20px; 
 }
