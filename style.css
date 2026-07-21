@@ -34,7 +34,7 @@ background-color: #c19a6b;
 .orderStation {
 grid-column: 4 / span 5;
 grid-row-start: 1;
-grid-row-end: 9;
+grid-row-end: 5;
 }
 
 button{
@@ -57,7 +57,7 @@ button:hover{
 
 
 .orderStation{
-    position: sticky;
+  position: sticky;
   top: 0;
   padding: 5px;
   background-color: #cae8ca;
