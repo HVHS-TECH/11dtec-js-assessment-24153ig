@@ -30,6 +30,8 @@ background-color: #c19a6b;
 grid-column: 4 / span 5;
 grid-row-start: 1;
 grid-row-end: 9;
+position: sticky;
+top: 20px;
 }
 
 button{
@@ -50,7 +52,4 @@ button:hover{
   transform: scale(1.01); 
 }
 
-.orderStation {
-  position: sticky;
-  top: 10px;
-}
+
