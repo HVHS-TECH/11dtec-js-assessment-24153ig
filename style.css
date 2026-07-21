@@ -67,6 +67,7 @@ button:hover{
 
 #spaceForJavaScriptOutput,
 #total,
+#spaceForJavaScriptFormOutput
  {
-    margin-left: 20px;
+    margin-left: 0px;
 }
