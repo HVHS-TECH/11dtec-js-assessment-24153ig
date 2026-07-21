@@ -71,7 +71,8 @@ let creamQuantity =0;
 let mmQuantity =0;
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "";
-total = 0;
+total ()
+total1()
 }
 
 function orderUpdate(){
