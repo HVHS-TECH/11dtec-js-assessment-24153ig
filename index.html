@@ -78,13 +78,13 @@
 </div>
 <div class="align">
 <p>Press Submit once you have selected <b>ALL</b> your items</p>
-<form onsubmit="return false;">
+<form onsubmit="getFormInput();return false;">
 <label for="formName"><b>Name:</b></label>
 <input type="text" id="nameField" name="formName" required>
 <br> </br>
 <label for="formName"><b>Cash Given:</b></label>
 <input type="number" id="moneyField" name="formName" min="0" required>
-<input type="submit" onClick="getFormInput()" class="submit" >
+<input type="submit" class="submit" >
 </form>
 </div>
 
