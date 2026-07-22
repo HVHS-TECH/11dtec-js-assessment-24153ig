@@ -3,7 +3,7 @@ console.log("Running script.js")
 
 const NAME_FIELD = document.getElementById("nameField");
 const AGE_FIELD = document.getElementById("ageField");
-
+const OUTPUT = document.getElementById("costomerName");
 /***Variables***/
 let userName ="";
 let age;
