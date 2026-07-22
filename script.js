@@ -34,7 +34,11 @@ const OUTPUT = document.getElementById("spaceForJavaScriptFormOutput");
 userName = (NAME_FIELD.value);
 const MONEY_FIELD = document.getElementById("moneyField");
 pocketMoney = Number (MONEY_FIELD.value);
-
+if(pocketMoney<total){
+    let notEnough = total-pocketMoney
+OUTPUT.innerHTML += "<p>You do not have enough money, you need $" + notEnough +" more</p>";
+}
+else{
 OUTPUT.innerHTML = "<h2>Receipt</h2><p>Hi "+userName+"<br><br/>Cash Given: $"+pocketMoney+"</p><p>Your Items:</p>";
 
 if (berriesQuantity>0){
@@ -68,7 +72,7 @@ total +=order[i];
 }
 console.log("Total:" + total )
 OUTPUT.innerHTML += "<p>Total: $"+total+" </p>";
-
+}
 if (pocketMoney>=total){
 Answer = pocketMoney-total  
 OUTPUT.innerHTML += "<p>Change: $" + Answer +" </p>";
