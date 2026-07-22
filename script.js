@@ -30,25 +30,22 @@ OUTPUT.innerHTML = "<p>Total: $"+total1+" </p>";
 total()
 
 function getFormInput() {
+
 const OUTPUT = document.getElementById("spaceForJavaScriptFormOutput");
 userName = (NAME_FIELD.value);
 const MONEY_FIELD = document.getElementById("moneyField");
 pocketMoney = Number (MONEY_FIELD.value);
-if(pocketMoney<total){
-    let notEnough = total-pocketMoney
-OUTPUT.innerHTML += "<p>You do not have enough money, you need $" + notEnough +" more</p>";
-}
-else{
+
 OUTPUT.innerHTML = "<h2>Receipt</h2><p>Hi "+userName+"<br><br/>Cash Given: $"+pocketMoney+"</p><p>Your Items:</p>";
 
 if (berriesQuantity>0){
-OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+" - $"+ berriesQuantity * 3+"</p>";
+OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+" </p>";
 }
 if (creamQuantity>0){
-OUTPUT.innerHTML += "<p>Cream x"+creamQuantity+" - $"+ creamQuantity * 3+"</p>";
+OUTPUT.innerHTML += "<p>Cream x"+creamQuantity+" </p>";
 }
 if (mmQuantity>0){
-OUTPUT.innerHTML += "<p>M&Ms x"+mmQuantity+" - $"+ mmQuantity * 3+"</p>";
+OUTPUT.innerHTML += "<p>M&Ms x"+mmQuantity+" </p>";
 }
 if (eggQuantity>0){
 OUTPUT.innerHTML += "<p>Ham, Cheese and Egg x"+eggQuantity+" - $"+ eggQuantity * 5+"</p>";
@@ -72,7 +69,7 @@ total +=order[i];
 }
 console.log("Total:" + total )
 OUTPUT.innerHTML += "<p>Total: $"+total+" </p>";
-}
+
 if (pocketMoney>=total){
 Answer = pocketMoney-total  
 OUTPUT.innerHTML += "<p>Change: $" + Answer +" </p>";
