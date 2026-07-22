@@ -79,7 +79,11 @@ OUTPUT.innerHTML += "<p>You do not have enough money, you need $" + notEnough +"
 
 }
 totalCosts()
+function orderAgain(){
+clearList();
 document.getElementById("orderSection").style.display="none";
+document.getElementById("orderAgain").style.display="none";
+}
 
 }
 
