@@ -48,16 +48,16 @@ if (mmQuantity>0){
 OUTPUT.innerHTML += "<p>M&Ms x"+mmQuantity+" </p>";
 }
 if (eggQuantity>0){
-OUTPUT.innerHTML += "<p>Ham, Cheese and Egg x"+eggQuantity+" - $"+ eggQuantity * 5+"</p>";
+OUTPUT.innerHTML += "<p>Ham, Cheese and Egg x"+eggQuantity+"</p>";
 }
 if (spinachQuantity>0){
-OUTPUT.innerHTML += "<p>Ham, Cheese and Spinach x"+spinachQuantity+" - $"+ spinachQuantity * 5+"</p>";
+OUTPUT.innerHTML += "<p>Ham, Cheese and Spinach x"+spinachQuantity+"</p>";
 }
 if (lemonQuantity>0){
-OUTPUT.innerHTML += "<p>Lemon and Sugar x"+lemonQuantity+" - $"+ lemonQuantity * 5+"</p>";
+OUTPUT.innerHTML += "<p>Lemon and Sugar x"+lemonQuantity+" </p>";
 }
 if (caremalQuantity>0){
-OUTPUT.innerHTML += "<p>Banana and caramal x"+caremalQuantity+" - $"+ caremalQuantity * 5+"</p>";
+OUTPUT.innerHTML += "<p>Banana and caramal x"+caremalQuantity+"</p>";
 }
 if (natellaQuantity>0){
 OUTPUT.innerHTML += "<p>Banana and Nutella x"+natellaQuantity+" - $"+ natellaQuantity * 5+"</p>";
