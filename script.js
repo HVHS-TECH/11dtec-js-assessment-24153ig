@@ -50,6 +50,7 @@ OUTPUT.innerHTML += "<p>Change: $" + Answer +" </p>";
 else{
 let notEnough = total-pocketMoney
 OUTPUT.innerHTML += "<p>You do not have enough money, you need $" + notEnough +" more</p>";
+
 }
 
 }
