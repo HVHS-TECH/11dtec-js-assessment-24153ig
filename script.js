@@ -34,7 +34,11 @@ const OUTPUT = document.getElementById("spaceForJavaScriptFormOutput");
 userName = (NAME_FIELD.value);
 const MONEY_FIELD = document.getElementById("moneyField");
 pocketMoney = Number (MONEY_FIELD.value);
+if (pocketMoney<0){
+    
+}
 OUTPUT.innerHTML = "<h2>Receipt</h2><p>Hi "+userName+"<br><br/>Cash Given: $"+pocketMoney+"</p><p>Your Items:</p>";
+
 if (berriesQuantity>0){
 OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+" - $"+ berriesQuantity * 3+"</p>";
 }
