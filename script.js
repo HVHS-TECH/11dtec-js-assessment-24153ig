@@ -5,7 +5,7 @@ const NAME_FIELD = document.getElementById("nameField");
 const AGE_FIELD = document.getElementById("ageField");
 
 /***Variables***/
-let userName;
+let userName ="";
 let age;
 let order = []
 let natellaQuantity =0;
