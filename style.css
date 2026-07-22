@@ -38,7 +38,7 @@ grid-row-start: 1;
 grid-row-end: 1;
 }
 
-button,submit{
+button{
   background:#c19a6b;
   color:black;
   border-radius: 12px;
