@@ -31,7 +31,10 @@ total()
 
 function getFormInput() {
 const OUTPUT = document.getElementById("spaceForJavaScriptFormOutput");
-let userName = (NAME_FIELD.value);
+userName = (NAME_FIELD.value);
+if (userName === ""){
+OUTPUT.innerHTML = "<h2>Name is required</p>";
+}
 OUTPUT.innerHTML = "<h2>Receipt</h2><p>Hi "+userName+"</p>";
 const MONEY_FIELD = document.getElementById("moneyField");
 pocketMoney = Number (MONEY_FIELD.value);
