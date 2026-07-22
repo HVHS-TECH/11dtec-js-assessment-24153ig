@@ -32,9 +32,10 @@ total()
 function getFormInput() {
 const OUTPUT = document.getElementById("spaceForJavaScriptFormOutput");
 userName = (NAME_FIELD.value);
-OUTPUT.innerHTML = "<h2>Receipt</h2><p>Hi "+userName+"</p>";
 const MONEY_FIELD = document.getElementById("moneyField");
 pocketMoney = Number (MONEY_FIELD.value);
+OUTPUT.innerHTML = "<h2>Receipt</h2><p>Hi "+userName+"<br><br/>Cash Given: $"+pocketMoney+"</p>";
+
 function totalCosts() {
 let total = 0;
 for (let i = 0; i<order.length; i++){
