@@ -60,7 +60,7 @@ if (caremalQuantity>0){
 OUTPUT.innerHTML += "<p>Banana and caramal x"+caremalQuantity+"</p>";
 }
 if (natellaQuantity>0){
-OUTPUT.innerHTML += "<p>Banana and Nutella x"+natellaQuantity+" - $"+ natellaQuantity * 5+"</p>";
+OUTPUT.innerHTML += "<p>Banana and Nutella x"+natellaQuantity+" </p>";
 }
 function totalCosts() {
 let total = 0;
