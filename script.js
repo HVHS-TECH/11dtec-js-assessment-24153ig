@@ -34,9 +34,7 @@ const OUTPUT = document.getElementById("spaceForJavaScriptFormOutput");
 userName = (NAME_FIELD.value);
 const MONEY_FIELD = document.getElementById("moneyField");
 pocketMoney = Number (MONEY_FIELD.value);
-if (pocketMoney<0){
-alert("Hello! I am an alert box!!");
-}
+
 OUTPUT.innerHTML = "<h2>Receipt</h2><p>Hi "+userName+"<br><br/>Cash Given: $"+pocketMoney+"</p><p>Your Items:</p>";
 
 if (berriesQuantity>0){
