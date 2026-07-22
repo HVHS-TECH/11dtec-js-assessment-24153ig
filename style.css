@@ -38,13 +38,13 @@ grid-row-start: 1;
 grid-row-end: 1;
 }
 
-button{
+button,.submit{
   background:#c19a6b;
   color:black;
   border-radius: 12px;
 }
 
-button:hover{
+button:hover,.submit:hover{
   background-color:#d4b897;
 }
 
