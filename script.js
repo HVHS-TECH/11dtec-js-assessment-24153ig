@@ -45,6 +45,7 @@ let total = 0;
 for (let i = 0; i<order.length; i++){
 total +=order[i];}
 
+//tells the user they do not have enough money for their order if they do not and tells them how much more they need and stops the receipt from showing until they have enough money to pay
 if (pocketMoney<total){
 let notEnough = total-pocketMoney
 OUTPUT.innerHTML += "<p><b>You do not have enough money, you need $" + notEnough +" more<b/></p>";
@@ -86,21 +87,11 @@ let total = 0;
 for (let i = 0; i<order.length; i++){
 total +=order[i];
 }
-
-
-console.log("Total:" + total )
 OUTPUT.innerHTML += "<p>Total: $"+total+" </p>";
+
 //Shows the user how much change they get
-if (pocketMoney>=total){
 Answer = pocketMoney-total  
 OUTPUT.innerHTML += "<p>Change: $" + Answer +" </p>";
-}
-//tells the user they do not have enough money for their order if they do not and tells them how much more they need
-else{
-let notEnough = total-pocketMoney
-OUTPUT.innerHTML += "<p><b>You do not have enough money, you need $" + notEnough +" more<b/></p>";
-
-}
 
 }
 totalCosts()
