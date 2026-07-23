@@ -95,16 +95,21 @@ totalCosts()
 
 //makes the order section disapper when the user clicks on submit
 document.getElementById("orderSection").style.display="none";
-//makes the order again button reapair
+//makes the order again button appear
 document.getElementById("orderAgain").style.display="block";
 
 }
 
+//when the order again button is pressed it will revert back to the order station
 function orderAgain(){
+//calls for clear list
 clearList();
+//makes the order station reappear
 document.getElementById("orderSection").style.display="block";
+//makes the order again bottion disappear
 document.getElementById("orderAgain").style.display="none";
 }
+
 
 function clearList() {
 order = [] 
