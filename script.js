@@ -41,6 +41,12 @@ userName = (NAME_FIELD.value);
 const MONEY_FIELD = document.getElementById("moneyField");
 pocketMoney = Number (MONEY_FIELD.value);
 
+if (pocketMoney<total){
+let notEnough = total-pocketMoney
+OUTPUT.innerHTML += "<p>You do not have enough money, you need $" + notEnough +" more</p>";
+return;
+}
+
 //Receipt
 OUTPUT.innerHTML = "<h2>Receipt</h2><p>Hi "+userName+"<br><br/>Cash Given: $"+pocketMoney+"</p><p>Your Items:</p>";
 
@@ -77,11 +83,6 @@ for (let i = 0; i<order.length; i++){
 total +=order[i];
 }
 
-if (pocketMoney<total){
-let notEnough = total-pocketMoney
-OUTPUT.innerHTML += "<p>You do not have enough money, you need $" + notEnough +" more</p>";
-return;
-}
 
 console.log("Total:" + total )
 OUTPUT.innerHTML += "<p>Total: $"+total+" </p>";
