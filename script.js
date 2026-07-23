@@ -32,16 +32,19 @@ OUTPUT.innerHTML = "<p>Total: $"+total1+" </p>";
 }
 total()
 
-/***This is the function that gets the input the user submitted (Their name and amount of money they have) and displays it on ***/
+/***This is the function that gets the input the user submitted (Their name and amount of money they have) and displays it on the recepit***/
 function getFormInput() {
 
 const OUTPUT = document.getElementById("spaceForJavaScriptFormOutput");
+//Setting the variables
 userName = (NAME_FIELD.value);
 const MONEY_FIELD = document.getElementById("moneyField");
 pocketMoney = Number (MONEY_FIELD.value);
 
+//Receipt
 OUTPUT.innerHTML = "<h2>Receipt</h2><p>Hi "+userName+"<br><br/>Cash Given: $"+pocketMoney+"</p><p>Your Items:</p>";
 
+//Displays what the user ordered on the receipt
 if (berriesQuantity>0){
 OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+" </p>";
 }
@@ -66,6 +69,8 @@ OUTPUT.innerHTML += "<p>Banana and caramal x"+caremalQuantity+"</p>";
 if (natellaQuantity>0){
 OUTPUT.innerHTML += "<p>Banana and Nutella x"+natellaQuantity+" </p>";
 }
+
+//shows the order total cost in the receipt
 function totalCosts() {
 let total = 0;
 for (let i = 0; i<order.length; i++){
