@@ -41,6 +41,7 @@ userName = (NAME_FIELD.value);
 const MONEY_FIELD = document.getElementById("moneyField");
 pocketMoney = Number (MONEY_FIELD.value);
 
+
 if (pocketMoney<total){
 let notEnough = total-pocketMoney
 OUTPUT.innerHTML += "<p>You do not have enough money, you need $" + notEnough +" more</p>";
