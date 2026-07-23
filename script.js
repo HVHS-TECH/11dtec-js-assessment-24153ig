@@ -78,11 +78,12 @@ total +=order[i];
 }
 console.log("Total:" + total )
 OUTPUT.innerHTML += "<p>Total: $"+total+" </p>";
-//
+//Shows the user how much change they get
 if (pocketMoney>=total){
 Answer = pocketMoney-total  
 OUTPUT.innerHTML += "<p>Change: $" + Answer +" </p>";
 }
+//tells the user they do not have enough money for their order if they do not and tells them how much more they need
 else{
 let notEnough = total-pocketMoney
 OUTPUT.innerHTML += "<p>You do not have enough money, you need $" + notEnough +" more</p>";
@@ -92,6 +93,7 @@ OUTPUT.innerHTML += "<p>You do not have enough money, you need $" + notEnough +"
 }
 totalCosts()
 
+//makes the order section disapper when the user clicks on submit
 document.getElementById("orderSection").style.display="none";
 document.getElementById("orderAgain").style.display="block";
 
