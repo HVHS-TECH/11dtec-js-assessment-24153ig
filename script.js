@@ -95,6 +95,7 @@ totalCosts()
 
 //makes the order section disapper when the user clicks on submit
 document.getElementById("orderSection").style.display="none";
+//makes the order again button reapair
 document.getElementById("orderAgain").style.display="block";
 
 }
