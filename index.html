@@ -75,7 +75,6 @@
 <div id="orderSection">
 <h2>Your Order:</h2>
 
-//place where the javascript output will display
 <div id="spaceForJavaScriptOutput"></div>
 <div id="total">
 
@@ -85,7 +84,6 @@
 //form for the users to fill out
 <form onsubmit="getFormInput();return false;">
 <label for="formName"><b>Name:</b></label>
-//makes the form requiured to do if they want to press submit
 <input type="text" id="nameField" name="formName" required>
 <br> </br>
 <label for="formName"><b>Cash Given:</b></label>
@@ -95,16 +93,12 @@
 </div>
 
 <div class="align2">
-//clear list button
 <button onClick = "clearList()"><b>Clear Order</b></button>
 </div>
 </div>
-//where the javascript form output will display
 <div id="spaceForJavaScriptFormOutput">
 
 </div>
-//the order again button
-//it is hidden at the moment
 <button id="orderAgain" onclick="orderAgain()" style="display: none;"><b>Order Again</b></button>
 </div>
 
