@@ -76,6 +76,13 @@ let total = 0;
 for (let i = 0; i<order.length; i++){
 total +=order[i];
 }
+
+if (pocketMoney<total){
+let notEnough = total-pocketMoney
+OUTPUT.innerHTML += "<p>You do not have enough money, you need $" + notEnough +" more</p>";
+return;
+}
+
 console.log("Total:" + total )
 OUTPUT.innerHTML += "<p>Total: $"+total+" </p>";
 //Shows the user how much change they get
