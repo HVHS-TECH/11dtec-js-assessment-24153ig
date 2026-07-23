@@ -1,10 +1,12 @@
 console.log("Hello world!")
 console.log("Running script.js")
 
+/***Consts that stay the same***/
 const NAME_FIELD = document.getElementById("nameField");
 const AGE_FIELD = document.getElementById("ageField");
 const OUTPUT = document.getElementById("costomerName");
-/***Variables***/
+
+/***My Variables***/
 let userName ="";
 let age;
 let order = []
@@ -16,9 +18,10 @@ let eggQuantity =0;
 let berriesQuantity = 0;
 let creamQuantity =0;
 let mmQuantity =0;
-/***Main***/
 
 /***Functions***/
+
+/***Funtion that works out the total cost of the users order***/
 function total() {
 const OUTPUT = document.getElementById("total");
 let total1 = 0;
