@@ -41,6 +41,9 @@ userName = (NAME_FIELD.value);
 const MONEY_FIELD = document.getElementById("moneyField");
 pocketMoney = Number (MONEY_FIELD.value);
 
+let total = 0;
+for (let i = 0; i<order.length; i++){
+total +=order[i];
 
 if (pocketMoney<total){
 let notEnough = total-pocketMoney
