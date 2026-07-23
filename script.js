@@ -32,6 +32,7 @@ OUTPUT.innerHTML = "<p>Total: $"+total1+" </p>";
 }
 total()
 
+/***This is the function that gets the input the user submitted (Their name and amount of money they have) and displays it on ***/
 function getFormInput() {
 
 const OUTPUT = document.getElementById("spaceForJavaScriptFormOutput");
