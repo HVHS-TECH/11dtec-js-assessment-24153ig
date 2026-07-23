@@ -163,12 +163,15 @@ OUTPUT.innerHTML += "<p>Banana and Nutella x"+natellaQuantity+" - $"+ natellaQua
 /***Berries Add to order button Function***/
 function addToList() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+//adds on to the quantity and order array
 berriesQuantity++;
 order.push(3.00);
+//calls for the order update and total function
 orderUpdate()
 total()
 }
 
+/***Cream Add to order button Function***/
 function addToListCream() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 creamQuantity++;
@@ -177,6 +180,7 @@ orderUpdate()
 total()
 }
 
+/***M&Ms Add to order button Function***/
 function addToListmm() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 mmQuantity++;
@@ -185,6 +189,7 @@ orderUpdate()
 total()
 }
 
+/***Ham, cheese and egg add to order button Function***/
 function addToListCrepe5() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 eggQuantity++;
@@ -193,6 +198,7 @@ orderUpdate()
 total()
 }
 
+/***Ham, cheese and spinach add to order button Function***/
 function addToListCrepe4() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 spinachQuantity++;
@@ -201,6 +207,7 @@ orderUpdate()
 total()
 }
 
+/***Lemon and sugar add to order button Function***/
 function addToListCrepe3() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 lemonQuantity++;
@@ -209,6 +216,7 @@ orderUpdate()
 total()
 }
 
+/***Banana and caremal add to order button Function***/
 function addToListCrepe2() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 caremalQuantity++;
@@ -217,6 +225,7 @@ orderUpdate()
 total()
 }
 
+/***Natella and banana add to order button Function***/
 function addToListCrepe1() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 natellaQuantity++;
