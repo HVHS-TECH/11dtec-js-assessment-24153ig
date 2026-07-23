@@ -133,6 +133,7 @@ orderUpdate()
 function orderUpdate(){
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "";
+//This is what will be displayed when they add to order
 if (berriesQuantity>0){
 OUTPUT.innerHTML += "<p>Berries x"+berriesQuantity+" - $"+ berriesQuantity * 3+"</p>";
 }
@@ -159,6 +160,7 @@ OUTPUT.innerHTML += "<p>Banana and Nutella x"+natellaQuantity+" - $"+ natellaQua
 }
 }
 
+/***Berries Add to order button Function***/
 function addToList() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 berriesQuantity++;
