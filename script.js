@@ -47,7 +47,7 @@ total +=order[i];}
 
 if (pocketMoney<total){
 let notEnough = total-pocketMoney
-OUTPUT.innerHTML += "<p>You do not have enough money, you need $" + notEnough +" more</p>";
+OUTPUT.innerHTML += "<p><b>You do not have enough money, you need $" + notEnough +" more<b/></p>";
 return;
 }
 
@@ -98,7 +98,7 @@ OUTPUT.innerHTML += "<p>Change: $" + Answer +" </p>";
 //tells the user they do not have enough money for their order if they do not and tells them how much more they need
 else{
 let notEnough = total-pocketMoney
-OUTPUT.innerHTML += "<p>You do not have enough money, you need $" + notEnough +" more</p>";
+OUTPUT.innerHTML += "<p><b>You do not have enough money, you need $" + notEnough +" more<b/></p>";
 
 }
 
