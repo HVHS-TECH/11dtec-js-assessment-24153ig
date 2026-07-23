@@ -43,7 +43,7 @@ pocketMoney = Number (MONEY_FIELD.value);
 
 let total = 0;
 for (let i = 0; i<order.length; i++){
-total +=order[i];
+total +=order[i];}
 
 if (pocketMoney<total){
 let notEnough = total-pocketMoney
