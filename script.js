@@ -174,8 +174,10 @@ total()
 /***Cream Add to order button Function***/
 function addToListCream() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+//adds on to the quantity and order array
 creamQuantity++;
 order.push(3.00);
+//calls for the order update and total function
 orderUpdate()
 total()
 }
@@ -183,8 +185,10 @@ total()
 /***M&Ms Add to order button Function***/
 function addToListmm() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+//adds on to the quantity and order array
 mmQuantity++;
 order.push(3.00);
+//calls for the order update and total function
 orderUpdate()
 total()
 }
@@ -192,8 +196,10 @@ total()
 /***Ham, cheese and egg add to order button Function***/
 function addToListCrepe5() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+//adds on to the quantity and order array
 eggQuantity++;
 order.push(5.00);
+//calls for the order update and total function
 orderUpdate()
 total()
 }
@@ -201,8 +207,10 @@ total()
 /***Ham, cheese and spinach add to order button Function***/
 function addToListCrepe4() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+//adds on to the quantity and order array
 spinachQuantity++;
 order.push(5.00);
+//calls for the order update and total function
 orderUpdate()
 total()
 }
@@ -210,8 +218,10 @@ total()
 /***Lemon and sugar add to order button Function***/
 function addToListCrepe3() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+//adds on to the quantity and order array
 lemonQuantity++;
 order.push(5.00);
+//calls for the order update and total function
 orderUpdate()
 total()
 }
@@ -219,8 +229,10 @@ total()
 /***Banana and caremal add to order button Function***/
 function addToListCrepe2() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+//adds on to the quantity and order array
 caremalQuantity++;
 order.push(5.00);
+//calls for the order update and total function
 orderUpdate()
 total()
 }
@@ -228,8 +240,10 @@ total()
 /***Natella and banana add to order button Function***/
 function addToListCrepe1() {
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
+//adds on to the quantity and order array
 natellaQuantity++;
 order.push(5.00);
+//calls for the order update and total function
 orderUpdate()
 console.log(order);
 total()
