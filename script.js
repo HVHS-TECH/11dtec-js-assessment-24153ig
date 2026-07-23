@@ -110,7 +110,7 @@ document.getElementById("orderSection").style.display="block";
 document.getElementById("orderAgain").style.display="none";
 }
 
-
+/***The function that makes the quantity of each item the user has ordered revert back to 0 and emptys the order array***/
 function clearList() {
 order = [] 
 natellaQuantity =0;
@@ -124,10 +124,12 @@ mmQuantity =0;
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 document.getElementById("spaceForJavaScriptFormOutput").innerHTML = "";
 OUTPUT.innerHTML = "";
+//calls for the total and order update function
 total ()
 orderUpdate()
 }
 
+/***This function updates the order everytime a new item is added***/
 function orderUpdate(){
 const OUTPUT = document.getElementById("spaceForJavaScriptOutput");
 OUTPUT.innerHTML = "";
